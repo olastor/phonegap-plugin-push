@@ -1434,6 +1434,8 @@ fcm.send(message, function(err, response){
 });
 ```
 
+By default the notification will disappear automatically after clicking on it.
+
 ## Badges
 
 On Android not all launchers support badges. In order for us to set badges we use [ShortcutBadger](https://github.com/leolin310148/ShortcutBadger) in order to set the badge. Check out their website to see which launchers are supported.
